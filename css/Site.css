@@ -1,0 +1,135 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.card-item {
+    position: relative;
+    border: 1px solid black;
+    height: 280px;
+    width: 200px;
+    display: inline-block;
+    font-family: "Arial"
+    font-size: 6pt;
+    background-image: url(../img/frontCard.jpg);
+    margin-top: 20px;
+    transition: all 0.4s;
+}
+.card-item .inner {
+    margin-left: 20px;
+    width: 160px;
+    margin-top: 30px;
+}
+
+.card-item h3 {
+    font-size: 8pt;
+}
+
+.card-item .attack {
+bottom: 20px;
+left: 22px;
+font-weight: bold;
+position: absolute;
+font-size: 10pt;
+}
+
+.card-item .defence {
+    bottom: 20px;
+    right: 22px;
+    font-weight: bold;
+    position: absolute;
+    font-size: 10pt;
+}
+
+#p1hand {
+    position: absolute;
+width: 300px;
+    top: 100px;
+    left: 100px;
+}
+
+#p1played {
+        position: absolute;
+width: 300px;
+    top: 100px;
+    left: 500px;
+}
+
+#p2played {
+        position: absolute;
+width: 300px;
+    top: 100px;
+    left: 900px;
+}
+
+#log {
+    max-height: 90px;
+    overflow: auto;
+    position: absolute;
+    left: 510px;
+    width: 400px;
+    top: 10px;
+    font-weight: bold;
+}
+
+body {
+
+    background: url(../img/pagebg.jpg);
+}

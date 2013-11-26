@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="css/site.css" rel="stylesheet" />
+
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+
+
+    <div id="log">
+
+    </div>
+
+    <div id="p1hand">
+
+
+    </div>
+
+    <div id="p1played">
+
+    </div>
+
+
+    <div id="p2played">
+
+    </div>
+
+    <script type="text/template" id="card-item">
+        <img src="img/cats/<%= image %>" />
+        <div class="inner">
+            <h3><%= title %></h3>
+        </div>
+        <span class="attack"><%= attack %></span>
+        <span class="defence"><%= defence %></span>
+    </script>
+
+    <script src="js/jquery-1.8.2.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/backbone.js"></script>
+    <script src="js/backbone.marionette.js"></script>
+
+    <script src="json/catcards.js"></script>
+    <script src="js/app/cat_app.js"></script>
+    <script src="js/app/models/card_model.js"></script>
+    <script src="js/app/views/card_view.js"></script>
+    <script src="js/app/controllers/game_controller.js"></script>
+
+</body>
+</html>
